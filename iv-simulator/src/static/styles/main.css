@@ -1,0 +1,67 @@
+
+@import url(http://fonts.googleapis.com/css?family=VT323);
+
+.terminal {
+	font-family: "VT323", "Source Sans Pro", "Droid Sans Mono", "Helvetica Neue";
+    word-wrap: break-word;
+    font-size: 22px;
+    padding: 195px 0 0 352px;
+    text-align: left;
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+@media (min-width: 768px) {
+    .terminal {
+    	padding: 195px 0 0 352px;
+    	font-size: 24px;
+	}
+}
+
+.arrow-link {
+	width: 10px;
+	cursor: pointer;
+	font-size: 10px;
+}
+.arrow-link:active {
+	color: black;
+	background: white;
+}
+
+.arrow-link.minus::before { content: "{" }
+.arrow-link.plus::after   { content: "}" }
+
+.arrow-link.minus { float: left; }
+.arrow-link.plus { float: right; }
+
+.terminal {
+	display: table;
+}
+
+.field {
+	display: table-row;
+	width: auto;
+	clear: both;
+	height: 45px;
+}
+
+.field .name, .field .value, .field .units {
+	float: left;
+	display: table-column;
+}
+
+.field .value { text-align: center;  }
+.field .name         { width: 90px; }
+.field .value.string { width: 160px; }
+.field .value.int    { width: 70px; }
+.field .units        { width: 80px; padding-left: 10px; }
+
+
+.pump {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: url(../images/images/iv-pump.svg) 0 0/cover no-repeat;
+    height: 800px;
+	width:  700px;
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Altoros - IV Pump Simulator</title>
+    <meta name="description" content="ifconfig tools from the command line">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/font-awesome.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css">
+    <script src="scripts/vendor/modernizr.js"></script>
+</head>
+
+<body>
+
+    <div id="navigation">
+        <div class="wrapper">
+            <h1>Intravenous Pump Simulator</h1>
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="wrapper">
+            <div class="row animated fadeInDown">
+                <div id="from-terminal" class="box col-md-12 col-md-offset-2 col-xs-12">
+                    <div class="pump">
+                        <div id="terminal" class="terminal">
+                            <div class="field" data-name="drug">
+                                <div class="name">Drug</div>
+                                <div class="value string editable">
+                                <div class="arrow-link minus"></div>
+                                IV pump
+                                <div class="arrow-link plus"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-name="rate">
+                                <div class="name">Rate</div>
+                                <div class="value int editable">
+                                <div class="arrow-link minus"></div>
+                                1500
+                                <div class="arrow-link plus"></div>
+                                </div>
+                                <div class="units">mL/hour</div>
+                            </div>
+                            <div class="field" data-name="volume">
+                                  <div class="name">Volume</div>
+                                <div class="value int editable">
+                                <div class="arrow-link minus"></div>
+                                500
+                                <div class="arrow-link plus"></div>
+                                </div>
+                                <div class="units">mL</div>
+                            </div>
+                            <div class="field" data-name="time">
+                                <div class="name">Time</div>
+                                <div class="value int">60</div>
+                                <div class="units">min</div>
+                            </div>
+                            <div class="field" data-name="time">
+                                <div class="name">Status</div>
+                                <div class="value string">waiting</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom">
+        <div class="wrapper">
+
+        </div>
+    </section>
+
+    <script src="scripts/main.js"></script>
+
+    <a href="https://github.com/Altoros/iv-simulator/">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+    </a>
+
+</body>
+
+</html>

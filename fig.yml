@@ -1,0 +1,8 @@
+iv-simulator:
+  build: iv-simulator
+  links:
+   - ganglia
+  ports:
+   - "8080:80"
+ganglia:
+  image: allomov/ganglia
